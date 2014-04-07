@@ -1,9 +1,7 @@
-// Arrays
-var muppetNames = ["kermit" , "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
+// Expressions - Arithmetic Operators
 
-muppetNames[1] = "Rizzo"; //changes index #1 to Rizzo
-muppetNames[2] = "Fozzy";
-
-var num = 2;
-
-console.log(muppetNames[num]); //lets me see whats in the index #1
+//area of the triangle is half of the width times the height
+var width = 8;
+var height = 7;
+var area = width * height/2;
+console.log(area);
