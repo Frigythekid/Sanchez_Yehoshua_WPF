@@ -20,4 +20,4 @@ var pizzas = 10;
 var slicesEaten = pizzas * slices / people;
 
 //print out the number of slices eaten by the people
-console.log("Each person ate " + slicesEaten + " slices of pizza at the party." )
+console.log("Each person ate " + parseInt(slicesEaten) + " slices of pizza at the party." )
