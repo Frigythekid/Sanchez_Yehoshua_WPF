@@ -40,9 +40,9 @@ var groceryAvg = groceryTotal / 5;
 console.log("You have spent a total of $" + groceryTotal + " on groceries over 5 weeks. That is an average of $" + groceryAvg + " per week.");
 
 //Calculate the price of an item after discount including the amount before and after tax
-var orgnlPrice = 50;
-var discount = 10;
-var item = "sweater";
+var orgnlPrice = 45;
+var discount = 15;
+var item = "pair of pants";
 var salesTax = 7;
 
 // Multiply the original price by discount as a percentage. Subtract that total from the original price to get the new price
@@ -52,6 +52,7 @@ var prcntSalesTax = salesTax / 100;
 var withOutTax = orgnlPrice - orgnlPrice * prcntDiscount;
 var withTax = withOutTax + withOutTax * prcntSalesTax;
 
-console.log("Your " + item + " was originally $" + orgnlPrice + ", but after a" + discount + "% discount, it is now $" + withOutTax + " without tax, and $" + withTax + " with tax.");
+//Print out the item name with the original price, price after discount without tax, and price after discount with tax
+console.log("Your " + item + " was originally $" + orgnlPrice + ", but after a " + discount + "% discount, it is now $" + withOutTax + " without tax, and $" + withTax + " with tax.");
 
 
