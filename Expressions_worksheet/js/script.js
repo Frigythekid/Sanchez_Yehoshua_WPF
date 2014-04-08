@@ -47,10 +47,11 @@ var salesTax = 7;
 
 // Multiply the original price by discount as a percentage. Subtract that total from the original price to get the new price
 //Multiply the new price by the sales tax as a percentage. Add that total to the new price to get the price with tax
-discount / 100;
-salesTax / 100;
-var withOutTax = orgnlPrice - orgnlPrice * discount;
-var withTax = withOutTax + withOutTax * salesTax;
+var prcntDiscount = discount / 100;
+var prcntSalesTax = salesTax / 100;
+var withOutTax = orgnlPrice - orgnlPrice * prcntDiscount;
+var withTax = withOutTax + withOutTax * prcntSalesTax;
 
-console.log()
+console.log("Your " + item + " was originally $" + orgnlPrice + ", but after a" + discount + "% discount, it is now $" + withOutTax + " without tax, and $" + withTax + " with tax.");
+
 
