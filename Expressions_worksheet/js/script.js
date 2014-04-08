@@ -12,12 +12,18 @@ console.log("Sparky is " + sparkysAge + " human years old which is " + dogYears 
 
 //Slice of Pie part 1
 //Calculate how many slices of pizza each person will get
-var slices = 10;
-var people = 8;
-var pizzas = 10;
+var slices = 8;
+var people = 10;
+var pizzas = 4;
 
 //Multiply pizzas by slices and divide by people and apply to slices eaten
 var slicesEaten = pizzas * slices / people;
 
 //print out the number of slices eaten by the people
 console.log("Each person ate " + parseInt(slicesEaten) + " slices of pizza at the party." )
+
+//Slice of Pie part 2
+//Calculate the number of slice sparky will get
+//Use Modulo to get the remainder of the equation in part 1 of the problem
+var remainingSlices = pizzas * slices % people;
+console.log(remainingSlices);
