@@ -26,4 +26,4 @@ console.log("Each person ate " + parseInt(slicesEaten) + " slices of pizza at th
 //Calculate the number of slice sparky will get
 //Use Modulo to get the remainder of the equation in part 1 of the problem
 var remainingSlices = pizzas * slices % people;
-console.log(remainingSlices);
+console.log("Spaky got " + remainingSlices + " slices of pizza.");
