@@ -45,10 +45,13 @@ var discount = 15;
 var item = "pair of pants";
 var salesTax = 7;
 
-// Multiply the original price by discount as a percentage. Subtract that total from the original price to get the new price
-//Multiply the new price by the sales tax as a percentage. Add that total to the new price to get the price with tax
+//Change the dicount and sales tax amount into a decimal
 var prcntDiscount = discount / 100;
 var prcntSalesTax = salesTax / 100;
+
+// Multiply the original price by discount as a percentage. Subtract that total from the original price to get the new price
+//Multiply the new price by the sales tax as a percentage. Add that total to the new price to get the price with tax
+
 var withOutTax = orgnlPrice - orgnlPrice * prcntDiscount;
 var withTax = withOutTax + withOutTax * prcntSalesTax;
 
