@@ -1,4 +1,4 @@
-//Yehoshua Sanchez April 7, 2014 Expressions Worksheet
+//Yehoshua "Josh" Sanchez April 7, 2014 Expressions Worksheet
 //Dog years problem
 //Calculate Sparky's age is in dog years
 var sparkysAge = 1.5;
