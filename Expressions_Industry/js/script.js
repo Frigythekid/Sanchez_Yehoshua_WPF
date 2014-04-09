@@ -20,3 +20,6 @@ var lockPerBuilding = floors * doorsPerFloor
 //calculates the number of locks per building by multiplying the number of floors and the number of doors per floor
 
 console.log(lockPerBuilding);
+
+alert("So there are " + lockPerBuilding + " locks in this building.");
+//alert to display the number of locks per building
