@@ -11,3 +11,12 @@ var floors = prompt("How many floors are in the building")
 
 console.log(floors);
 
+var doorsPerFloor = prompt("How many doors are on each floor?")
+//Asks the number of doors per floor
+
+console.log(doorsPerFloor);
+
+var lockPerBuilding = floors * doorsPerFloor
+//calculates the number of locks per building by multiplying the number of floors and the number of doors per floor
+
+console.log(lockPerBuilding);
