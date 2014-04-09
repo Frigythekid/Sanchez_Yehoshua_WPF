@@ -28,7 +28,8 @@ var pricePerLock = prompt("What is the price of each lock?");
 //asks the price of each lock
 
 
-
+var priceJob = pricePerLock * lockPerBuilding
+//Calculates the total price of the job
 
 
 
