@@ -7,3 +7,4 @@ var milesPer = prompt("How many miles per gallon does your vehicle get?"); //Ask
 var tripMiles = prompt("How many miles is your trip?"); //Ask user how many miles their trip is
 //need expression to calculate the amount of stops needed for the trip
 var stops = tripMiles / (carGallons * milesPer);
+console.log(stops);
