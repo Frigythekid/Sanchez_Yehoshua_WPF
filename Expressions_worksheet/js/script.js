@@ -43,7 +43,7 @@ console.log("You have spent a total of $" + groceryTotal + " on groceries over 5
 var orgnlPrice = 45;
 var discount = 15;
 var item = "pair of pants";
-var salesTax = 7;
+var salesTax = 7.5;
 
 //Change the dicount and sales tax amount into a decimal
 var prcntDiscount = discount / 100;

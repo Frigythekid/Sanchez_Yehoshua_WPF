@@ -1,6 +1,8 @@
-//Expressions - Assignment Operators
+//Prompt and Alert
 
-var a = 3;
-a -- ; // a = a - 1 // a -=1
+var width = prompt("We are calculating the area of a rectangle.\nPlease enter the width");
+var height = prompt("Please enter the height.");
+var area = width * height; //calculates with that info
+//console.log(area); //prints it out to console
 
-console.log(a);
+alert("The area of your rectangle is " + area);
