@@ -18,6 +18,15 @@ var tripMiles = prompt("How many miles is your trip?");
 //Ask user how many miles their trip is
 //need expression to calculate the amount of stops needed for the trip
 
+if(tripMiles >= 600)
+{
+	alert("That sure is a long trip!");
+}
+else
+{
+	alert("That shouldn't take long.");
+}
+//if else to add an alert depending on the distance of the trip
 
 var stops = tripMiles / (carGallons * milesPer); 
 // Multiply carGallons with milesPer and then divide tripMiles by the result of the initial multiplication
