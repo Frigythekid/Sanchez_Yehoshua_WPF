@@ -23,3 +23,15 @@ console.log(lockPerBuilding);
 
 alert("So there are " + lockPerBuilding + " locks in this building.");
 //alert to display the number of locks per building
+
+var pricePerLock = prompt("What is the price of each lock?");
+//asks the price of each lock
+
+
+
+
+
+
+
+
+
