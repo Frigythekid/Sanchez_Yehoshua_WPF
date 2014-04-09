@@ -1,6 +1,8 @@
 //Yehoshua "Josh" Sanchez
 //04-9-14 Expressions_Personal
 
+//script to figure out the number of stops a user will need to make on a trip
+
 alert("I need to ask you a few questions."); 
 //nice alert letting user know some questions will be asked
 
