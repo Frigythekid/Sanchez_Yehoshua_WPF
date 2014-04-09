@@ -8,3 +8,4 @@ var tripMiles = prompt("How many miles is your trip?"); //Ask user how many mile
 //need expression to calculate the amount of stops needed for the trip
 var stops = tripMiles / (carGallons * milesPer); // Multiply carGallons with milesPer and then divide tripMiles by the result of the initial multiplication
 console.log("You would need to stop " + parseInt(stops) + " times when traveling " + tripMiles + " miles."); //prints the result of the equation
+alert("You would need to stop " + parseInt(stops) + " times when traveling " + tripMiles + " miles.");
