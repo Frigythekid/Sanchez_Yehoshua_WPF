@@ -32,7 +32,8 @@ var priceJob = pricePerLock * lockPerBuilding
 //Calculates the total price of the job
 
 alert("So the total price of the job is $" + priceJob + ".");
-
+console.log("So the total price of the job is $" + priceJob + ".");
+//alert to show user the final price and console to print the total price
 
 
 
