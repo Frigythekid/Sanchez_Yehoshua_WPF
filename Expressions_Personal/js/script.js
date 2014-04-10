@@ -11,17 +11,20 @@ var carGallons = prompt("How many gallons does your vehicle hold?");
 //Ask user to enter the amount of gallons in their vehicle
 
 console.log(carGallons);
+//print to the console what the user inputed in the prompt
 
 var milesPer = prompt("How many miles per gallon does your vehicle get?");
  //Ask user to enter the amount of miles per gallon their vehicle gets
 
  console.log(milesPer);
+ //print to the console what the user inputed in the prompt
 
 var tripMiles = prompt("How many miles is your trip?"); 
 //Ask user how many miles their trip is
 //need expression to calculate the amount of stops needed for the trip
 
 console.log(tripMiles);
+//print to the console what the user inputed in the prompt
 
 if(tripMiles >= 600)
 {
