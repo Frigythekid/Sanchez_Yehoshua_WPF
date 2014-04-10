@@ -25,7 +25,15 @@ console.log(superHero[secondNum]);
 console.log(villain[thirdNum]);
 //added console.log for each variable to make sure the information was recorded
 
-alert
+alert("One moment while I make some calculations."); //extra alert for suspense
+
+alert("You are " + superHero[secondNum) + " and you were born in the month of " + month[firstNum] + " and are " + parseInt(age) + " years old. Your Nemesis is " + villain[thirdNum] + ".");
+//alert to display the results
+
+alert("Good luck in your fight for justice."); 
+//final alert.
+console.log("You are " + superHero[secondNum) + " and you were born in the month of " + month[firstNum] + " and are " + parseInt(age) + " years old. Your Nemesis is " + villain[thirdNum] + ".");
+//console.log to put the results in the console
 
 
 
