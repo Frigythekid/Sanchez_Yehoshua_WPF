@@ -23,16 +23,17 @@ var age = fourthNum / 2 //divides the fourth variable by 2 to get the age
 console.log(month[firstNum]);
 console.log(superHero[secondNum]);
 console.log(villain[thirdNum]);
+console.log(age);
 //added console.log for each variable to make sure the information was recorded
 
 alert("One moment while I make some calculations."); //extra alert for suspense
 
-alert("You are " + superHero[secondNum) + " and you were born in the month of " + month[firstNum] + " and are " + parseInt(age) + " years old. Your Nemesis is " + villain[thirdNum] + ".");
+alert("You are " + superHero[secondNum] + " and you were born in the month of " + month[firstNum] + " and are " + parseInt(age) + " years old. Your Nemesis is " + villain[thirdNum] + ".");
 //alert to display the results
 
 alert("Good luck in your fight for justice."); 
 //final alert.
-console.log("You are " + superHero[secondNum) + " and you were born in the month of " + month[firstNum] + " and are " + parseInt(age) + " years old. Your Nemesis is " + villain[thirdNum] + ".");
+console.log("You are " + superHero[secondNum] + " and you were born in the month of " + month[firstNum] + " and are " + parseInt(age) + " years old. Your Nemesis is " + villain[thirdNum] + ".");
 //console.log to put the results in the console
 
 
