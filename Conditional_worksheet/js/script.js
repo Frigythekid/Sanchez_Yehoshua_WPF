@@ -20,7 +20,7 @@ if(gallonsLeft * mpg > miles){
 //Check the Login
 //are the username AND password both entered correctly
 //all variables needed
-var usernameEntered = "abcd"; //Variable for the username entered as a string
+var usernameEntered = "ABCD"; //Variable for the username entered as a string
 var passwordEntered = "ABCD"; // Variable for password entered as a string
 var correctUsername = "ABCD"; // Correct username as a string
 var correctPassword = "ABCD"; // Correct password as a string
