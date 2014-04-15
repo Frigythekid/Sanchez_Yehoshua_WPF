@@ -43,6 +43,22 @@ if(usernameEntered === correctUsername && passwordEntered != correctPassword){
 }
 
 
+//Tire Pressure I
+//code for making sure that the two front tires match and the two back tires match
+//variables for each tire
+var frontRight =
+var frontLeft =
+var backRight =
+var backLeft =
+
+//1 single conditional to determine if the car is up to spec
+if(frontRight === frontLeft && backRight === backLeft){
+	//pring out for the conditional being true
+	console.log("The tires pass spec!");
+}else{
+	//print out if conditional is false
+	console.log("Get your tires checked out!");
+}
 
 
 
