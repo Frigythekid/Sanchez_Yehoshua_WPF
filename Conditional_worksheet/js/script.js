@@ -17,3 +17,41 @@ if(gallonsLeft * mpg > miles){
 	console.log("You only have " + gallonsLeft + " gallons of gas in your tank, better get gas now while you can!");
 }
 
+//Check the Login
+//are the username AND password both entered correctly
+//all variables needed
+var usernameEntered = ;
+var passwordEntered = ;
+var correctUsername = ;
+var correctPassword = ;
+//equation needed using the "and" operator to make sure both the username entered and password entered match
+if(usernameEntered === correctUsername && passwordEntered === correctPassword){
+//print out for both matching
+console.log("Welcome, " + correctUsername + "!");
+}
+
+//conditional if usernameEntered doesn't match
+if(usernameEntered != correctUsername){
+	//print out for only the username being incorrect
+	console.log("User not found. Try again.");
+}
+
+//conditional for username being correct but password being incorrect
+if(usernameEntered === correctUsername && passwordEntered != correctPassword){
+	//printout for the above condition
+	console.log("Password does not match our records.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
