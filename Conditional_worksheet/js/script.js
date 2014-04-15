@@ -46,10 +46,10 @@ if(usernameEntered === correctUsername && passwordEntered != correctPassword){
 //Tire Pressure I
 //code for making sure that the two front tires match and the two back tires match
 //variables for each tire
-var frontRight =
-var frontLeft =
-var backRight =
-var backLeft =
+var frontRight = 20;
+var frontLeft = 25;
+var backRight = 30;
+var backLeft = 30;
 
 //1 single conditional to determine if the car is up to spec
 if(frontRight === frontLeft && backRight === backLeft){
