@@ -33,7 +33,7 @@ if(sitUps === ""){
 var totalUps = Number(sitUps) + Number(pushUps);
 
 if(runMinutes >= 45 && totalUps >= 75){
-	alert("You have done plenty of excercise, now go get some rest!");
+	alert("You have done " + totalUps + " sit ups and push ups. You also ran " + runMinutes + " minutes, that is plenty of excercise, now go get some rest!");
 }else if(runMinutes >= 90 || totalUps >= 125){
 	alert("You have done plenty of excercise, now get some rest!");
 }else{
@@ -41,7 +41,7 @@ if(runMinutes >= 45 && totalUps >= 75){
 }
 
 if(runMinutes >= 45 && totalUps >= 75){
-	console.log("You have done plenty of excercise, now go get some rest!");
+	console.log("You have done " + totalUps + " sit ups and push ups. You also ran " + runMinutes + " minutes, that is plenty of excercise, now go get some rest!");
 }else if(runMinutes >= 90 || totalUps >= 125){
 	console.log("You have done plenty of excercise, now get some rest!");
 }else{
