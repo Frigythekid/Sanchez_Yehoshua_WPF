@@ -20,3 +20,20 @@ if(pushUps === ""){
 }else{
 	alert("Thank you! Just one last question.")
 }
+
+var sitUps = prompt("How many sit ups did you do?");
+if(sitUps === ""){
+	var sitUps = prompt("You forgot to input something!");
+}
+console.log(runMinutes);
+console.log(pushUps);
+console.log(sitUps);
+
+
+
+
+
+
+
+
+
