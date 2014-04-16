@@ -30,7 +30,7 @@ if(sitUps === ""){
 	alert("Great work!")
 }
 
-var totalUps = sitUps + pushUps;
+var totalUps = Number(sitUps) + Number(pushUps);
 
 if(runMinutes >= 45 && totalUps >= 75){
 	alert("You have done plenty of excercise, now go get some rest!");
@@ -39,11 +39,14 @@ if(runMinutes >= 45 && totalUps >= 75){
 }else{
 	alert("Hmm...Maybe you should try working out a bit more.");
 }
-console.log(runMinutes);
-console.log(pushUps);
-console.log(sitUps);
-console.log(totalUps);
 
+if(runMinutes >= 45 && totalUps >= 75){
+	console.log("You have done plenty of excercise, now go get some rest!");
+}else if(runMinutes >= 90 || totalUps >= 125){
+	console.log("You have done plenty of excercise, now get some rest!");
+}else{
+	console.log("Hmm...Maybe you should try working out a bit more.");
+}
 
 
 
