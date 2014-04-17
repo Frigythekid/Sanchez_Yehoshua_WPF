@@ -26,11 +26,13 @@ if(commits >= 20){
  (tested === "yes") ? alert("Great just one more question!") : alert("How about you test it out before turning it in.")
  //ternary operator to either alert the user to either test their code, or continue on to the next question
 
- var working = prompt("Did your code work?");
+ var working = prompt("Did your code work?");//variable entered by a prompt if the code works
  if(working === "yes"){
  	alert("You are good to turn it in.");
+ 	//if the user answers yes then the user is alerted and notified in the console that they may turn their work in
  	console.log("You are good to turn it in.");
  }else{
  	alert("Well maybe you should check and see what's wrong!");
+ 	//if the user answers anything else then an alert and notification in console appear letting the user know to check what is wrong.
  	console.log("Well maybe you should check and see what's wrong!");
  }
