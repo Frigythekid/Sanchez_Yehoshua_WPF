@@ -21,15 +21,18 @@ if(height <= 65){
 	console.log("That is a good height!");
 }
 
-var age = prompt("Now that I have your height I want to know how old you are.");
+var age = prompt("Now that I have your height I want to know how old you are.");//prompt asking the user to enter in their age
 if(age <= 17){
 	alert("You are very young but we can make it work!");
+	//if the age entered is less then 17 than an alert and console notification displays saying the user is very young
 	console.log("You are very young but we can make it work!");
-}else if(age >= 40){
+}else if(age >= 50){
 	alert("You should probably be retired, or worse dead!");
+	//if the age entered is greater than 50 then an alert and console notification display stating the user is very old.
 	console.log("You should probably be retired, or worse dead!");
 }else{
 	alert("Alright, let's continue.")
+	//if the age does not match any other conditional then an alert and notification appear stating to continue with the question.
 	console.log("Alright, let's continue.")
 }
 
