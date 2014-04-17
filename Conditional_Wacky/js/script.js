@@ -21,3 +21,23 @@ if(height <= 65){
 	console.log("That is a good height!");
 }
 
+var age = prompt("Now that I have your height I want to know how old you are.");
+if(age <= 17){
+	alert("You are very young but we can make it work!");
+	console.log("You are very young but we can make it work!");
+}else if(age >= 40){
+	alert("You should probably be retired, or worse dead!");
+	console.log("You should probably be retired, or worse dead!");
+}else{
+	alert("Alright, let's continue.")
+	console.log("Alright, let's continue.")
+}
+
+
+
+
+
+
+
+
+
