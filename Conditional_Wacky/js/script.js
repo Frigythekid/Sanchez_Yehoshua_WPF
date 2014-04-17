@@ -3,7 +3,7 @@
 //script to figure out how many wins you would get as a pitcher
 
 alert("You are a professional pitcher for the Atlanta Braves.")//alert to let the user know what is happening
-alert("With just 3 questions I will be able \n to tell you how many wins you will get in one year.");//alert to tell the user what will be figured out
+alert("With just 2 questions I will be able \n to tell you how many wins you will get in one year.");//alert to tell the user what will be figured out
 
 var height = prompt("First things first. \n What is your height in inches.");//prompt to get the variable for height
 
@@ -52,11 +52,11 @@ if(height > 65 && height < 89){
 	win2 = 5;
 }
 
-var totalWins = win1 + win2
+var totalWins = Number(win1) + Number(win2)
  
- if(totalWins = 20){
- 	alert("Congratulations! you are an ace and ended with "+totalWins+" wins.");
- 	console.log"Congratulations! you are an ace and ended with "+totalWins+" wins.");
+ if(totalWins === 20){
+ 	alert("Congratulations! You are an ace and ended with "+totalWins+" wins.");
+ 	console.log("Congratulations! You are an ace and ended with "+totalWins+" wins.");
  }else if(totalWins < 12){
  	alert("You weren't the best, but you still managed to get "+totalWins+" wins.");
  	console.log("You weren't the best, but you still managed to get "+totalWins+" wins.");
@@ -65,7 +65,9 @@ var totalWins = win1 + win2
  	console.log("You had a decent year and ended with "+totalWins+" wins.");
  }
 
-
+console.log(win1);
+console.log(win2);
+console.log(totalWins);
 
 
 
