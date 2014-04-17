@@ -18,12 +18,13 @@ if(commits >= 20){
 	console.log("You need to make at least "+commitsNeed+" more commits.");
 }
  
- var tested = prompt("Did you test your code?");
+ var tested = prompt("Did you test your code?");//variable for if the user tested their code
  if(tested === ""){
- 	var tested = prompt("You forgot to input something!")
+ 	var tested = prompt("You forgot to input something!")//if the prompt is left blank then another appears saying the user forgot to input something
  }
 
  (tested === "yes") ? alert("Great just one more question!") : alert("How about you test it out before turning it in.")
+ //ternary operator to either alert the user to either test their code, or continue on to the next question
 
  var working = prompt("Did your code work?");
  if(working === "yes"){
