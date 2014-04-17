@@ -54,7 +54,16 @@ if(height > 65 && height < 89){
 
 var totalWins = win1 + win2
  
- if(totalWins)
+ if(totalWins = 20){
+ 	alert("Congratulations! you are an ace and ended with "+totalWins+" wins.");
+ 	console.log"Congratulations! you are an ace and ended with "+totalWins+" wins.");
+ }else if(totalWins < 12){
+ 	alert("You weren't the best, but you still managed to get "+totalWins+" wins.");
+ 	console.log("You weren't the best, but you still managed to get "+totalWins+" wins.");
+ }else{
+ 	alert("You had a decent year and ended with "+totalWins+" wins.");
+ 	console.log("You had a decent year and ended with "+totalWins+" wins.");
+ }
 
 
 
