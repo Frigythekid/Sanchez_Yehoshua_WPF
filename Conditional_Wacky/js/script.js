@@ -9,8 +9,15 @@ var height = prompt("First things first. \n What is your height in inches.");//p
 
 if(height <= 65){
 	alert("You probably won't stand a chance but let's keep going.")
+	//if the user is shorter than 65 inches an alert and console notification is displayed stating that the user is a little short
 	console.log("You probably won't stand a chance but let's keep going.")
 }else if(height >= 89){
 	alert("You should probably be playing basketball!");
+	//if the user is taller than 89 inches an alert and console notification is displayed stating that the user should be playing basketball
 	console.log("You should probably be playing basketball!");
+}else{
+	alert("That is a good height!");
+	//if neither of the heights match than an alert and console notifications is displayed stating that the user is agood height.
+	console.log("That is a good height!");
 }
+
