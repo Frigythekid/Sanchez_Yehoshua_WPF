@@ -62,18 +62,17 @@ var totalWins = Number(win1) + Number(win2)//this adds the wins given from the h
  
  if(totalWins === 20){
  	alert("Congratulations! You are an ace and ended with "+totalWins+" wins.");
+ 	//if the totalWins adds up to 20 than the user will get an alert and console display that they recieved 20 wins.
  	console.log("Congratulations! You are an ace and ended with "+totalWins+" wins.");
  }else if(totalWins < 12){
  	alert("You weren't the best, but you still managed to get "+totalWins+" wins.");
+ 	//if the user gets less than 12 wins than they get an alert and console display that they weren't the best but still managed to get x amount of wins
  	console.log("You weren't the best, but you still managed to get "+totalWins+" wins.");
  }else{
  	alert("You had a decent year and ended with "+totalWins+" wins.");
+ 	//lastly if they get a win total that doesn't match the conditionals the user gets an alert and console display that they had a decent year and ended with x amount of wins
  	console.log("You had a decent year and ended with "+totalWins+" wins.");
  }
-
-console.log(win1);
-console.log(win2);
-console.log(totalWins);
 
 
 
