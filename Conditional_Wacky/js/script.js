@@ -37,22 +37,28 @@ if(age <= 17){
 }
 
 if(age > 17 && age < 40){
+	//if the age is greater than 17 AND less than 40 than the user would get atleast 10 wins because of that.
 	win1 = 10;
 }else if(age <= 17){
+	//if the age is 17 or less than the user will only get 6 wins bc of it
 	win1 = 6;
 }else{
+	//if neither matches than the user would only get 3, this would happen with age being greater than 40
 	win1 = 3;
 }
 
 if(height > 65 && height < 89){
+	//if the user enters a height greater than 65 but less than 89 than the user will get 10 wins because of it
 	win2 = 10;
 }else if(height <= 65){
+	//if the user enters height equal too or less than 65 than the user will only get 4 wins because of it
 	win2 = 4;
 }else{
+	//if taller than 89 the user will get 5 wins
 	win2 = 5;
 }
 
-var totalWins = Number(win1) + Number(win2)
+var totalWins = Number(win1) + Number(win2)//this adds the wins given from the height and age variables.
  
  if(totalWins === 20){
  	alert("Congratulations! You are an ace and ended with "+totalWins+" wins.");
