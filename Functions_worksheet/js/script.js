@@ -13,3 +13,4 @@ function calcCirc(r)//function with parameter for the radius
 //Calculate the number of bee sting are needed to kill an animal
 var weight = 100;//Given variable is the weight in pounds
 var beeStings = 8.666666667;//variable for the bee stings needed per pound
+var beeStingTotal = calcBeeSting(weight, beeStings);//variable for total bee stings set to the function that will be used with the arguments for weight and beestings
