@@ -9,4 +9,6 @@ function calcCirc(r)//function with parameter for the radius
 {
 	return 2 * 3.14 * r;//returns the value of the equation
 }
-
+//Stung
+//Calculate the number of bee sting are needed to kill an animal
+var weight = 100;//Given variable is the weight in pounds
