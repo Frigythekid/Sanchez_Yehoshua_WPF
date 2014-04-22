@@ -7,6 +7,6 @@ var circumference = calcCirc(radius);//circumference variable with the fuction a
 console.log("The circumference of the circle is " + circumference + ".");//prints to the console what the circumference is
 function calcCirc(r)//function with parameter for the radius
 {
-	return 2 * 3.14 * r;
+	return 2 * 3.14 * r;//returns the value of the equation
 }
 
