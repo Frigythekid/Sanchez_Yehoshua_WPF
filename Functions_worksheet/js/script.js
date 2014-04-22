@@ -3,7 +3,7 @@
 //Functions worksheet
 //Find the circumference of a circle
 var radius = 4;//given variable is the radius
-var circumference = calcCirc(radius);
+var circumference = calcCirc(radius);//circumference variable with the fuction and argument for variable
 console.log("The circumference of the circle is " + circumference + ".");
 function calcCirc(r)
 {
