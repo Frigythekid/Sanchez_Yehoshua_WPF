@@ -2,8 +2,9 @@
 //May 1, 2014
 //Functions Personal
 //Script to find how many hours there is left in the day
-var hoursLeft = function(s, v, w, sw){
-	var hours = 24 - (s + v + w + sw);
+var hoursLeft = function(s, v, w, sw)//anonymous function with parameters for each of the variables.
+{
+	var hours = 24 - (s + v + w + sw);//expression to calculate the hours left in the day
 	return hours
 }
 
@@ -29,7 +30,7 @@ var schoolHours = prompt("How many hours have you spent on school?")
 var timeLeft = hoursLeft(Number(sleep), Number(videoGames), Number(workHours), Number(schoolHours));
 
 if(timeLeft < 0){
-	console.log("You've run out of hours.");
+	console.log("You've run out of hours in the day. You are at "+timeLeft+" hours.");
 }else if(timeLeft > 12){
 	console.log("You have plenty of time left. You have "+timeLeft+" hours left in the day.")
 }else{
