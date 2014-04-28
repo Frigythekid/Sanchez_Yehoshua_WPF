@@ -5,17 +5,17 @@
 var hoursLeft = function(s, v, w, sw)//anonymous function with parameters for each of the variables.
 {
 	var hours = 24 - (s + v + w + sw);//expression to calculate the hours left in the day
-	return hours
+	return hours//returns the variable
 }
 
-var sleep = prompt("How many hours have you slept?")
+var sleep = prompt("How many hours have you slept?")//prompt to  collect the variable fo the number of hours slept.
 
-var games = prompt("Have you played any video games?")
+var games = prompt("Have you played any video games?")//prompt to ask if any video games were played.
 
-if(games === "yes"){
+if(games === "yes"){//if yes, then a prompt to collect the hours played in hours
 	var videoGames = prompt("How many hours have you played?");
 }else{
-	var videoGames = 0;
+	var videoGames = 0;//if else, then it sets the value to 0
 }
 
 var work = prompt("Have you worked today?");
