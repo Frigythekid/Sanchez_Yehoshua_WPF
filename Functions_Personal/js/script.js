@@ -28,8 +28,8 @@ var schoolHours = prompt("How many hours have you spent on school?")
 
 var timeLeft = hoursLeft(Number(sleep), Number(videoGames), Number(workHours), Number(schoolHours));
 
-if(timeLeft < 4){
-	console.log("Act fast because you only have "+timeLeft+" hours left in the day.");
+if(timeLeft < 0){
+	console.log("You've run out of hours.");
 }else if(timeLeft > 12){
 	console.log("You have plenty of time left. You have "+timeLeft+" hours left in the day.")
 }else{
