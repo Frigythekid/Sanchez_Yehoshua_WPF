@@ -27,14 +27,14 @@ if(work === "yes"){
 }
 var schoolHours = prompt("How many hours have you spent on school?")//prompt to collect the time in hours worked on school
 
-var timeLeft = hoursLeft(Number(sleep), Number(videoGames), Number(workHours), Number(schoolHours));
+var timeLeft = hoursLeft(Number(sleep), Number(videoGames), Number(workHours), Number(schoolHours));//variable that calls the function to calculate the hours left in the day.
 
 if(timeLeft < 0){
-	console.log("You've run out of hours in the day. You are at "+timeLeft+" hours.");
-}else if(timeLeft > 12){
-	console.log("You have plenty of time left. You have "+timeLeft+" hours left in the day.")
+	console.log("You've run out of hours in the day. You are at "+timeLeft+" hours.");//if hours is less than 0 than the console states that time has run out in the day
+}else if(timeLeft >= 12){
+	console.log("You have plenty of time left. You have "+timeLeft+" hours left in the day.")//if 12 or more hours are left than the console sates that there is plenty of time left
 }else{
-	console.log("You have "+timeLeft+" hours left in the day.")
+	console.log("You have "+timeLeft+" hours left in the day.")//anything else just states the time left in the day
 }
 
 
