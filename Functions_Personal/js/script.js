@@ -18,14 +18,14 @@ if(games === "yes"){//if yes, then a prompt to collect the hours played in hours
 	var videoGames = 0;//if else, then it sets the value to 0
 }
 
-var work = prompt("Have you worked today?");
+var work = prompt("Have you worked today?");//prompt to ask if user worked
 
 if(work === "yes"){
-	var workHours = prompt("How many hours have you worked?");
+	var workHours = prompt("How many hours have you worked?");//if yes then a prompt to collect the hours appeared
 }else{
-	var workHours = 0;
+	var workHours = 0;//if anything else than the value is set to 0
 }
-var schoolHours = prompt("How many hours have you spent on school?")
+var schoolHours = prompt("How many hours have you spent on school?")//prompt to collect the time in hours worked on school
 
 var timeLeft = hoursLeft(Number(sleep), Number(videoGames), Number(workHours), Number(schoolHours));
 
