@@ -9,3 +9,7 @@ var speed = prompt("How fast can you run in ft/s?");
 function velociraptorDistance(s){
 	return 1760 - (s * 30)
 }
+//function to get the result of whether or not the user can outrun a velociraptor
+//1760 is the distance a velociraptor can run in 30 seconds
+var outRun = velociraptorDistance(speed);//calls the function to get the result
+(outRun < 0) ? console.log("Because you ran fast enough you were not caught by the velociraptor.") : console.log("You have been eaten by the velociraptor.");
