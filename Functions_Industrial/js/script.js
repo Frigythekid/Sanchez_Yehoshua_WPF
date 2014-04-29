@@ -15,4 +15,4 @@ var confident = prompt("Are you confident that you've learned what you have stud
 //ternary with logical operator for total hours studied being at least 60 and over and the confident does equal yes to be true
 function studyTime(h, d){
 	return h * d;
-}
+}//function with the arguments to multiply the hours and days to get the total and return it
