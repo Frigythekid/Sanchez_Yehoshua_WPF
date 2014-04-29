@@ -13,3 +13,4 @@ function velociraptorDistance(s){
 //1760 is the distance a velociraptor can run in 30 seconds
 var outRun = velociraptorDistance(speed);//calls the function to get the result
 (outRun < 0) ? console.log("Because you ran fast enough you were not caught by the velociraptor.") : console.log("You have been eaten by the velociraptor.");
+//if the resulting variable is negative then that means the user has managed to outrun the velociraptor. If positive that means the user was caught.
