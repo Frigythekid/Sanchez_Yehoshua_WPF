@@ -12,6 +12,7 @@ var studyTotal = studyTime(studyHours, studyDays);
 var confident = prompt("Are you confident that you've learned what you have studied?");
 //variable to collect how confident the user is they have learned what they've studied
 (studyTotal >= 60 && confident === "yes") ? console.log("You can keep programming!") : console.log("You should probably go study some more.");
+//ternary with logical operator for total hours studied being at least 60 and over and the confident does equal yes to be true
 function studyTime(h, d){
 	return h * d;
 }
